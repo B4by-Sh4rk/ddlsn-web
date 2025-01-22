@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainText.css';
+import '../css/MainText.css';
 import HeaderMenu from './HeaderMenu';
 import { Link } from 'react-router-dom';
 

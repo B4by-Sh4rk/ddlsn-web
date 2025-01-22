@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import '../css/Header.css';
 import { Link } from 'react-router-dom';
 
 function MainText() {
@@ -8,7 +8,6 @@ function MainText() {
       <div className='firts_text'>
         Добро пожаловать в захватывающий мир, где ты сможешь погрузиться в увлекательные приключения!
       </div>
-      <img src={require('../img/gif.gif')} className='photo'/>
       <div className='main_text'><span>Deadly soon</span><br /> – <br />
         это уникальный рогалик <br />
         с элементами изометрического подземелья в пиксельном стиле. Ты можешь выбрать <br />одного из трех героев:

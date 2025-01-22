@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import './SideMenu.css';
+import '../css/SideMenu.css';
 import { Link } from 'react-router-dom';
 
 function SideMenu({ onClose }) {
     const [isClosing, setIsClosing] = useState(false);
 
     useEffect(() => {
-        // Когда меню открыто, отключаем горизонтальную прокрутку
         if (!isClosing) {
             document.body.style.overflowY = 'hidden';
         } else {

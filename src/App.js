@@ -3,19 +3,18 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import MainText from './components/MainText';
-import About from './components/About';
-import Contacts from './components/Contacts';
-import Profile from './components/Profile';
-import Merch from './components/Merch';
-import ClassMage from './components/ClassMage';
-import ClassSamurai from './components/ClassSamurai';
-import ClassWarrior from './components/ClassWarrior';
+import About from './pages/About';
+import Contacts from './pages/Contacts';
+import Profile from './pages/Profile';
+import Merch from './pages/Merch';
+import ClassMage from './pages/ClassMage';
+import ClassSamurai from './pages/ClassSamurai';
+import ClassWarrior from './pages/ClassWarrior';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
         <Routes>
           <Route path="/" element={<MainText />} />
           <Route path="/about" element={<About />} />
@@ -26,6 +25,7 @@ function App() {
           <Route path="/ClassSamurai" element={<ClassSamurai />} />
           <Route path="/ClassWarrior" element={<ClassWarrior />} />
         </Routes>
+        <Header />
       </div>
     </Router>
   );
