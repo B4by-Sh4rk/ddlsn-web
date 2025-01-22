@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ddlsn-web/static/css/main.a2f92b95.css",
+    "main.js": "/ddlsn-web/static/js/main.336089d2.js",
+    "static/media/photo.png": "/ddlsn-web/static/media/photo.f959be29a8e031f6998a.png",
+    "static/media/Icon.png": "/ddlsn-web/static/media/Icon.592748500a1e83d71b6b.png",
+    "index.html": "/ddlsn-web/index.html",
+    "main.a2f92b95.css.map": "/ddlsn-web/static/css/main.a2f92b95.css.map",
+    "main.336089d2.js.map": "/ddlsn-web/static/js/main.336089d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f92b95.css",
+    "static/js/main.336089d2.js"
+  ]
+}
